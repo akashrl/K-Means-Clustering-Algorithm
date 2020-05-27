@@ -19,7 +19,8 @@ The features you will use are the 4 continuous attributes in yelp3.csv.
 
 **Score function:** Within-cluster sum of squared error was used (where rk is the centroid of cluster Ck, d is the distance function.).
 
-The python script should take three arguments as input:
+The python script takes three arguments as input:
+
 **1. trainingDataFileName:** corresponds to a subset of the data that should be used as the training set for your algorithm.
 
 **2. K:** the value of k to use when clustering.
@@ -43,7 +44,7 @@ Centroid1=[49.00895,8.39655,12,3]
 CentroidK=[33.33548605,-111.7714182,9,97]
 ```
 
-The following clustering options were also implemented.
+The following clustering options were also implemented:
 
 2. A log transform to reviewCount and checkins (corresponding to 3.2).
 
