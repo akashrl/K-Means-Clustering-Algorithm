@@ -11,7 +11,7 @@ This project used the ‘Yelp’ dataset. It contains 19 attributes: 15 diescret
 The submission was run on a hidden dataset which is different from the given dataset. The hidden dataset would have the same column names for the continuous attributes as the given dataset.
 The features you will use are the 4 continuous attributes in yelp3.csv.
 
-## Algorithm and Expected Output
+## K-Means Algorithm and Expected Output
 
 **Features:** The 4 continuous attributes in yelp.csv were considered for X.
 
@@ -46,10 +46,10 @@ CentroidK=[33.33548605,-111.7714182,9,97]
 
 The following clustering options were also implemented:
 
-2. A log transform to reviewCount and checkins (corresponding to 3.2).
+2. A log transform to reviewCount and checkins *(corresponding to 3.2 on project handout pdf)*.
 
-3. Standardize the 4 attributes for clustering (corresponding to 3.3).
+3. Standardize the 4 attributes for clustering *(corresponding to 3.3 on project handout pdf)*.
 
-4. Four original attributes and Manhattan distance for clustering (corresponding to 3.4). 5. A random sample of the data for clustering (corresponding to 3.5).
+4. Four original attributes and Manhattan distance for clustering *(corresponding to 3.4 on project handout pdf)*. 5. A random sample of the data for clustering *(corresponding to 3.5 on project handout pdf)*.
 
-6. Improved score function from Theory Question 5 was used (corresponding to 3.6)
+6. Improved score function from Theory Question 5 was used *(corresponding to 3.6 on project handout pdf)*.
