@@ -7,7 +7,7 @@ This project used the ‘Yelp’ dataset. It contains 19 attributes: 15 diescret
 The submission was run on a hidden dataset which is different from the given dataset. The hidden dataset would have the same column names for the continuous attributes as the given dataset.
 The features you will use are the 4 continuous attributes in yelp3.csv.
 
-# Algorithm and Expected Output
+## Algorithm and Expected Output
 
 **Features:** The 4 continuous attributes in yelp.csv were considered for X.
 
@@ -25,7 +25,7 @@ The python script should take three arguments as input:
 The code reads in the training sets from the csv file, clusters the training set using the specified value of k, and outputs the within-cluster sum of squared error and cluster centroids. For the centroid of each cluster, the values for each of the four attributes are reported in the following order.
 {latitude, longitude, reviewCount, checkins}
 
-The expected output is given below. Note that this will run your algorithm with the yelp.csv file, a K value of 4, and clustering option 1. Please make sure you follow this output else you WILL loose points. Note that this is only a sample output and the numbers are not representative of the actual results.
+The expected output is given below. Note that runs the algorithm with the yelp.csv file, a K value of 4, and clustering option 1.
 
 **$ python kmeans.py yelp.csv 4 1**
 
