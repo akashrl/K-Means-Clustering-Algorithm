@@ -29,15 +29,17 @@ The code reads in the training sets from the csv file, clusters the training set
 
 The expected output is given below. Note that runs the algorithm with the yelp.csv file, a K value of 4, and clustering option 1.
 
-**$ python kmeans.py yelp.csv 4 1**
+```
+$ python kmeans.py yelp.csv 4 1
 
-**WC-SSE=15.2179**
+WC-SSE=15.2179
 
-**Centroid1=[49.00895,8.39655,12,3]**
+Centroid1=[49.00895,8.39655,12,3]
 
-**...**
+...
 
-**CentroidK=[33.33548605,-111.7714182,9,97]**
+CentroidK=[33.33548605,-111.7714182,9,97]
+```
 
 The following clustering options were also implemented.
 
