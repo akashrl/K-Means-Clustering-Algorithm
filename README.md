@@ -1,6 +1,8 @@
 # K-Means-Clustering-Algorithm
 
-Please see **handout.pdf** for full project and algorithm details.
+See ***kmeans.py*** under *src* for algorithm implementation.
+
+Please see ***handout.pdf*** for full project and algorithm details.
 
 In this programming assignment, the the k-means clustering algorithm was implemented.
 
