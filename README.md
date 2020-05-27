@@ -38,7 +38,11 @@ The expected output is given below. Note that runs the algorithm with the yelp.c
 **CentroidK=[33.33548605,-111.7714182,9,97]**
 
 The following clustering options were also implemented.
+
 2. A log transform to reviewCount and checkins (corresponding to 3.2).
+
 3. Standardize the 4 attributes for clustering (corresponding to 3.3).
+
 4. Four original attributes and Manhattan distance for clustering (corresponding to 3.4). 5. A random sample of the data for clustering (corresponding to 3.5).
-6. Use your improved score function from Theory Question 5 (corresponding to 3.6)
+
+6. Improved score function from Theory Question 5 was used (corresponding to 3.6)
